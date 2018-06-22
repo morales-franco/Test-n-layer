@@ -3,3 +3,10 @@
 ################################################################################
 
 /NWind/NWind.DAL/bin/Debug
+/NWind/NWind.DAL/obj/Debug
+/NWind/NWind.Test/bin/Debug
+/NWind/NWind.Test/obj/Debug
+/NWind/NWind.Entities/bin/Debug/netstandard2.0
+/NWind/.vs/NWind/v15
+/NWind/.vs/NWind/DesignTimeBuild
+/NWind/NWind.Entities/obj
