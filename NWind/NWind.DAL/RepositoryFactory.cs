@@ -10,7 +10,9 @@ namespace NWind.DAL
     {
         public static IRepository CreateRepository()
         {
-            return new EFRepository(new NWindEntities());
+            var context = new NWindEntities();
+            context.Configuration.ProxyCreationEnabled = false;
+            return new EFRepository(context);
         }
     }
 }

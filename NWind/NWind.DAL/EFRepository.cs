@@ -14,7 +14,7 @@ namespace NWind.DAL
         // Recibamos una instancia del contexto al crear la clase
         public EFRepository(DbContext context)
         {
-            this.Context = context;
+            Context = context;
         }
 
         public TEntity Create<TEntity>(TEntity toCreate) where TEntity : class
@@ -26,7 +26,10 @@ namespace NWind.DAL
                 Context.SaveChanges();
                 Result = toCreate;
             }
-            catch (Exception ex){ }
+            catch (Exception ex)
+            {
+
+            }
             return Result;
         }
         public bool Delete<TEntity>(TEntity toDelete) where TEntity : class

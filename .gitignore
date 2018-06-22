@@ -16,3 +16,7 @@
 /NWind/NWind.Business/obj/Debug
 /NWind/NWind.Service/bin/Debug/netstandard2.0
 /NWind/NWind.Service/obj
+/NWind/NWind.ProxyService/bin/Debug/netstandard2.0
+/NWind/NWind.ProxyService/obj
+/NWind/NWind.Website/bin
+/NWind/NWind.Website/obj/Debug
