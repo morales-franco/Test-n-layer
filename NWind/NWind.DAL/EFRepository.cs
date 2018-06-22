@@ -26,7 +26,7 @@ namespace NWind.DAL
                 Context.SaveChanges();
                 Result = toCreate;
             }
-            catch { }
+            catch (Exception ex){ }
             return Result;
         }
         public bool Delete<TEntity>(TEntity toDelete) where TEntity : class

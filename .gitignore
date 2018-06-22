@@ -10,3 +10,9 @@
 /NWind/.vs/NWind/v15
 /NWind/.vs/NWind/DesignTimeBuild
 /NWind/NWind.Entities/obj
+/NWind/NWind.API/bin
+/NWind/NWind.API/obj/Debug
+/NWind/NWind.Business/bin/Debug
+/NWind/NWind.Business/obj/Debug
+/NWind/NWind.Service/bin/Debug/netstandard2.0
+/NWind/NWind.Service/obj
